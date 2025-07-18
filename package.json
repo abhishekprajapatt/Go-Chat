@@ -1,0 +1,29 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "latest": "^0.2.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
