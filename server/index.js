@@ -5,6 +5,7 @@ import connectDB from './config/connectDB.js';
 import router from './routes/index.js';
 import cookiesParser from 'cookie-parser';
 import { server } from './socket/index.js'
+
 dotenv.config();
 
 const app = express();
